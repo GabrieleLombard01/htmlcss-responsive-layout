@@ -19,3 +19,13 @@ header{
     justify-content: space-between;
 }
 /*Utilties*/
+
+/*Sidebar*/
+.nav_link{
+    border: solid black 1px;
+    border-style: inset;
+    margin: 15px 30px 15px 30px;
+}
+.fa-bars{
+    padding-top: 19px;
+}
