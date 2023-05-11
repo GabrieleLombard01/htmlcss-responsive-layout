@@ -30,6 +30,17 @@ li{
     padding: 10px 20px 10px 10px;
     font-size: 20px;
 }
+img{
+    width: 100%;
+    object-fit: contain;
+}
+h3{
+    font-size: 21px;
+}
+p{
+    font-size: 17px;
+    font-weight: bold;
+}
 /*Utilties*/
 .conteiner{
     margin: 40px auto 40px auto;
@@ -52,7 +63,7 @@ li{
 }
 .card{
     border: dashed black 1px;
-    background-color: white;
+    background-color: #b5ddff;
     margin: 2px;
     height: 100%;
     border-radius: 25px;
@@ -67,7 +78,7 @@ button{
 .nav_link{
     margin: 15px 30px 15px 30px;
 }
-.fa-bars{
+.fa-solid{
     padding-top: 19px;
 }
 .nav_list{
@@ -86,35 +97,48 @@ button{
     min-height: 55vh;
 }
 .card_content{
-    background-color: white;
     border: dashed black 1px;
     margin: 20px;
-    height: 250px;
+
+    /*height: 300px;*/
 }
 #card_content_long{
-    background-color: rgb(255, 255, 255);
     border: dashed black 1px;
     margin: 20px;
-    height: 200px;
+    /*height: 250px;*/
 }
 #blu_card_img{
-    background-color: white;
     border: dashed black 1px;
-    margin: 20px 20px 0px 20px;
-    height: 200px;
+    margin: 10px 10px 0px 10px;
+    height: 267px;
 }
 .frs_cl{
     margin-bottom: 30px;
 
 }
+.line_space{
+    margin-bottom: 20px;
+}
+.size_frs_cc{
+    text-align: center;
+    
+}
+.blu_title{
+    color: #0084fd;
+}
+.grey_p{
+    color: #5a6e7f;
+}
 @media screen and (min-width:750px) {
     .conteiner{width: 100%;}
+    
     .col{margin-bottom: 0%;}
     .frs_cl{width: calc(100% - 41%);margin-bottom: 0;}
     .resp_frs{flex-direction: row;justify-content: center;gap: 15px;margin: 0;}
-    .size_cl{width: calc(100% / 3.5);height: 450px;}
+    .size_cl{width: calc(100% / 3.5);height: 550px;}
     .card_content{height: 250px;}
     .size_frs_cc{margin: 8px;}
+    #phone{height: 100%;position: relative; right: 115px;}
 }
 @media screen and (min-width:1300px) {
     .conteiner{width: 90%;}
