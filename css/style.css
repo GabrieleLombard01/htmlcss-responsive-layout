@@ -17,9 +17,31 @@ header{
     background-color: #0084fd;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 /*Utilties*/
-
+.conteiner{
+    margin: 40px auto 40px auto;
+    width: 300px;
+    border: dashed black 1px;
+    border-style: inset;
+}
+.row{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.col{
+    width: 90%;
+    min-height: calc(100vh / 2.8);
+    background-color: rgb(254, 218, 173);
+    border: solid red 1px;
+}
 /*Sidebar*/
 .nav_link{
     border: solid black 1px;
@@ -28,4 +50,7 @@ header{
 }
 .fa-bars{
     padding-top: 19px;
+}
+.frs-rw :first-child{
+    min-height: 60vh;
 }
