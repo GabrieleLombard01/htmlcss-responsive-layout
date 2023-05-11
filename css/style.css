@@ -20,6 +20,15 @@ header{
     justify-content: space-between;
     position: sticky;
     top: 0;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    font-size: 20px;
 }
 /*Utilties*/
 .conteiner{
@@ -59,6 +68,15 @@ header{
 .fa-bars{
     padding-top: 19px;
 }
+.nav_list{
+    display: none;
+}
+@media screen and (min-width:1300px) {
+    .conteiner{width: 90%;}
+    .fa-bars{display: none;}
+    .nav_list{display: inline-block;color: white;}
+    header{padding: 0 50px 0 50px;}
+}
 /*First row*/
 .frs_cl{
     width: 90%;
@@ -88,14 +106,18 @@ header{
     margin-bottom: 30px;
 
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:750px) {
     .conteiner{width: 100%;}
     .col{margin-bottom: 0%;}
-    .frs_cl{width: calc(100% - 50%);margin-bottom: 0;}
+    .frs_cl{width: calc(100% - 41%);margin-bottom: 0;}
     .resp_frs{flex-direction: row;justify-content: center;gap: 15px;margin: 0;}
     .size_cl{width: calc(100% / 3.5);height: 450px;}
     .card_content{height: 250px;}
     .size_frs_cc{margin: 8px;}
+}
+@media screen and (min-width:1300px) {
+    .conteiner{width: 90%;}
+    .frs_cl{width: calc(100% - 42%);}
 }
 /*second row*/
 .sec{
@@ -109,9 +131,14 @@ header{
 .ben{
     margin: 0 auto 0 auto;
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:750px) {
     .conteiner{width: 100%;}
     .bn_rw{flex-direction: row;justify-content: center;gap: 20px;}
-    .bn_cl{width: 45%;height: 40%;}
+    .bn_cl{width: 45%;height: 50%;}
 }
 /*About us*/
+@media screen and (min-width:750px) {
+    .conteiner{width: 100%;}
+    .abo_rw{flex-direction: row;justify-content: center;gap: 5px;}
+    .abo{width: 48%;height: 70%;}
+}
