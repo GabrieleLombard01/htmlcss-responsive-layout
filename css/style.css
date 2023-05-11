@@ -42,6 +42,12 @@ header{
     background-color: rgb(254, 218, 173);
     border: solid red 1px;
 }
+.card{
+    border: dashed black 1px;
+    margin: 20px;
+    height: 100%;
+    border-radius: 25px;
+}
 /*Sidebar*/
 .nav_link{
     border: solid black 1px;
@@ -51,6 +57,9 @@ header{
 .fa-bars{
     padding-top: 19px;
 }
-.frs-rw :first-child{
+.frs_cl{
+    width: 90%;
+    background-color: rgb(254, 218, 173);
+    border: solid red 1px;
     min-height: 60vh;
 }
