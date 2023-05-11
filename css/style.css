@@ -20,7 +20,7 @@ header{
     justify-content: space-between;
     position: sticky;
     top: 0;
-    
+    z-index: 1;
 }
 ul{
     list-style: none;
@@ -69,7 +69,8 @@ p{
     border-radius: 25px;
 }
 button{
-    padding: 6px;
+    border: none;
+    padding: 8px;
     border-radius: 20px;
     font-size: 18px;
     background-color: white;
@@ -99,7 +100,7 @@ button{
 .card_content{
     border: dashed black 1px;
     margin: 20px;
-
+    
     /*height: 300px;*/
 }
 #card_content_long{
@@ -110,14 +111,21 @@ button{
 #blu_card_img{
     border: dashed black 1px;
     margin: 10px 10px 0px 10px;
-    height: 267px;
+    height: 270px;
 }
 .frs_cl{
     margin-bottom: 30px;
-
+    
+}
+.cardl{
+    border: dashed black 1px;
+    background-color: #b5ddff;
+    margin: 2px;
+    height: 100%;
+    border-radius: 25px;
 }
 .line_space{
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 .size_frs_cc{
     text-align: center;
@@ -129,20 +137,30 @@ button{
 .grey_p{
     color: #5a6e7f;
 }
+#blue_but{
+    background-color: #0084fd;
+    border: none;
+    color: white;
+    letter-spacing: 3px;
+    padding: 12px;
+    font-size: 14px;
+}
 @media screen and (min-width:750px) {
     .conteiner{width: 100%;}
-    
     .col{margin-bottom: 0%;}
-    .frs_cl{width: calc(100% - 41%);margin-bottom: 0;}
+    .card{height: 100%;}
+    .cardl{height: ;}
+    .frs_cl{height: 514px;width: calc(100% - 41%);margin: 0;}
     .resp_frs{flex-direction: row;justify-content: center;gap: 15px;margin: 0;}
-    .size_cl{width: calc(100% / 3.5);height: 550px;}
-    .card_content{height: 250px;}
-    .size_frs_cc{margin: 8px;}
-    #phone{height: 100%;position: relative; right: 115px;}
+    .size_cl{width: calc(100% / 3.5);height: 514px;}
+    .size_frs_cc{margin: 0px, 5px, 0px, 5px}
+    #phone{height: 100%;position: relative; right: 108px;}
+    .grey_p{font-size: 20px;}
+    .blu_title{font-size: 26px;}
 }
 @media screen and (min-width:1300px) {
     .conteiner{width: 90%;}
-    .resp_frs{gap: 30px;}
+    .resp_frs{gap: 20px;}
     .frs_cl{width: calc(100% - 41%);}
 }
 /*second row*/
