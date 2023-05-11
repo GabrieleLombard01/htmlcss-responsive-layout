@@ -117,7 +117,8 @@ li{
 }
 @media screen and (min-width:1300px) {
     .conteiner{width: 90%;}
-    .frs_cl{width: calc(100% - 42%);}
+    .resp_frs{gap: 30px;}
+    .frs_cl{width: calc(100% - 41%);}
 }
 /*second row*/
 .sec{
