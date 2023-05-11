@@ -95,6 +95,7 @@ header{
     .resp_frs{flex-direction: row;justify-content: center;gap: 15px;margin: 0;}
     .size_cl{width: calc(100% / 3.5);height: 450px;}
     .card_content{height: 250px;}
+    .size_frs_cc{margin: 8px;}
 }
 /*second row*/
 .sec{
@@ -107,6 +108,10 @@ header{
 /*Benefits*/
 .ben{
     margin: 0 auto 0 auto;
-
+}
+@media screen and (min-width:480px) {
+    .conteiner{width: 100%;}
+    .bn_rw{flex-direction: row;justify-content: center;gap: 20px;}
+    .bn_cl{width: 45%;height: 40%;}
 }
 /*About us*/
