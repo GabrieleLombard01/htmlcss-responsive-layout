@@ -34,17 +34,19 @@ header{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
     width: 100%;
+    margin-bottom: 20px;
 }
 .col{
     width: 90%;
     min-height: calc(100vh / 2.8);
     background-color: rgb(254, 218, 173);
     border: solid red 1px;
+    margin-top: 30px;
 }
 .card{
     border: dashed black 1px;
+    background-color: white;
     margin: 2px;
     height: 100%;
     border-radius: 25px;
@@ -58,20 +60,21 @@ header{
 .fa-bars{
     padding-top: 19px;
 }
+/*First row*/
 .frs_cl{
     width: 90%;
     background-color: rgb(254, 218, 173);
     border: solid red 1px;
-    min-height: 60vh;
+    min-height: 55vh;
 }
 .card_content{
     background-color: white;
     border: dashed black 1px;
     margin: 20px;
-    height: 300px;
+    height: 250px;
 }
-.card_content_long{
-    background-color: white;
+#card_content_long{
+    background-color: rgb(255, 255, 255);
     border: dashed black 1px;
     margin: 20px;
     height: 200px;
@@ -81,4 +84,8 @@ header{
     border: dashed black 1px;
     margin: 20px 20px 0px 20px;
     height: 200px;
+}
+/*second row*/
+.sec{
+    margin-top: 0;
 }
