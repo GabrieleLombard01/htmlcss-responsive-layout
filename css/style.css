@@ -38,7 +38,6 @@ li{
     border-style: inset;
 }
 .row{
-    background-color: lightgoldenrodyellow;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,7 +47,6 @@ li{
 .col{
     width: 90%;
     min-height: calc(100vh / 2.8);
-    background-color: rgb(254, 218, 173);
     border: solid red 1px;
     margin-bottom: 30px;
 }
@@ -80,7 +78,6 @@ li{
 /*First row*/
 .frs_cl{
     width: 90%;
-    background-color: rgb(254, 218, 173);
     border: solid red 1px;
     min-height: 55vh;
 }
@@ -124,6 +121,11 @@ li{
 .sec{
     margin-top: 0;
 }
+@media screen and (min-width:1300px) {
+    .conteiner{width: 90%;}
+    .sc_rw{flex-direction: row;}
+    .sc_cl{width: 50%;}
+}
 /*Third row*/
 .thr{
     margin-top: 30px;
@@ -136,6 +138,11 @@ li{
     .conteiner{width: 100%;}
     .bn_rw{flex-direction: row;justify-content: center;gap: 20px;}
     .bn_cl{width: 45%;height: 50%;}
+}
+@media screen and (min-width:1300px) {
+    .conteiner{width: 90%;}
+    .bn_rw{flex-direction: row;justify-content: center;gap: 20px;}
+    .bn_cl{width: 30%;height: 50%;}
 }
 /*About us*/
 @media screen and (min-width:750px) {
