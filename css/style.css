@@ -21,6 +21,12 @@
 img{
     object-fit: initial;
 }
+figure{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 /*Utilties*/
 .conteiner{
     width: 80%;
@@ -134,10 +140,25 @@ img{
     .row{flex-direction: row;}
 }
 
-@media screen and (min-width:1400px) {}
 
 
 /*Third row*/
+.purple_sect{
+    border: solid purple 1px;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.fig_purple{
+    margin: 10px auto 10px auto
+}
+
+@media screen and (min-width:768px) {
+    .p_row{display: flex;}
+    .top_space_p{padding-top: 60px;}
+}
+
 
 /*Benefits*/
 
