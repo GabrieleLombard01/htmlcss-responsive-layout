@@ -107,6 +107,9 @@ img{
 
 
 /*second row*/
+.cr-2{
+    background-color: #9792e4;
+}
 .size_img_sec_rw{
     width: 100%;
     padding-bottom: 50px;
@@ -120,6 +123,18 @@ img{
     border-radius: 50%;
     margin-bottom: 30px;
 }
+
+
+@media screen and (min-width:768px) {
+    .cl-2{width: 94%;}
+}
+@media screen and (min-width:1024px) {
+    .cr-2{width: 100%;}
+    .cl-2{width: 400px;}
+    .row{flex-direction: row;}
+}
+
+@media screen and (min-width:1400px) {}
 
 
 /*Third row*/
